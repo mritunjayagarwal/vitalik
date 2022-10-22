@@ -25,14 +25,17 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,132,242,1) 100%);
 
 .navbar-brand{
     color: #fff;
+    font-weight: 700;
+    text-shadow: 0 0 3px #000, 4px 4px 4px #000;
 }
 
 .navbar{
-	z-index: 1;
+	z-index: 3;
 }
 
 .navbar li a{
     color: #fff;
+    font-weight: 600;
 }
 
 .navbar li a:hover{
@@ -99,4 +102,31 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,132,242,1) 100%);
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+  }
+
+  .main{
+    margin-top: 190px
+  }
+
+  @media only screen and (max-width: 600px) {
+    .toke-section {
+      padding-top: 550px !important;
+    }
+
+    .navbar-collapse{
+      background: #000;
+    }
+
+    .nav-item{
+      margin: 10px 0 !important;
+    }
+
+    .btn-grad{
+      width: 95%;
+    }
+
+    .main{
+      margin-top: 100px;
+      padding: 0 10px;
+    }
   }
